@@ -28,11 +28,5 @@ WebUI.click(findTestObject('1_Create_Team/span_Next'))
 
 WebUI.click(findTestObject('1_Create_Team/span_Finish'))
 
-WebUI.click(findTestObject('1_Create_Team/input_httpsmattermost-duo-test-yenherokuapp_4a75c3'))
-
-WebUI.setText(findTestObject('1_Create_Team/input_httpsmattermost-duo-test-yenherokuapp_4a75c3'), 'yenthu0')
-
-WebUI.click(findTestObject('1_Create_Team/span_Finish'))
-
 not_run: WebUI.closeBrowser()
 
