@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>2_Create_Team_existed_team_name</name>
+   <name>1.1_New_Team</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f46ed03f-68c1-440a-a424-b8a7dfc22b78</testCaseGuid>
+   <testCaseGuid>3f8c766e-263c-4cf1-b28b-f2d7a204e2bc</testCaseGuid>
 </TestCaseEntity>
