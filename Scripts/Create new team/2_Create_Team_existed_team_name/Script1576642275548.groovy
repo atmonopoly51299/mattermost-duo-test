@@ -20,20 +20,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/select_team')
 
-WebUI.click(findTestObject('Object Repository/1_Create_Team/Page_Mattermost/span_Create a new team'))
+WebUI.click(findTestObject('1_Create_Team/span_Create a new team'))
 
-WebUI.setText(findTestObject('Object Repository/1_Create_Team/Page_Mattermost/input_Team Name_teamNameInput'), 'YenThu')
+WebUI.setText(findTestObject('1_Create_Team/input_Team Name_teamNameInput'), 'YenThu')
 
-WebUI.click(findTestObject('Object Repository/1_Create_Team/Page_Mattermost/span_Next'))
+WebUI.click(findTestObject('1_Create_Team/span_Next'))
 
-WebUI.click(findTestObject('Object Repository/1_Create_Team/Page_Mattermost/span_Finish'))
+WebUI.click(findTestObject('1_Create_Team/span_Finish'))
 
-WebUI.click(findTestObject('Object Repository/1_Create_Team/Page_Mattermost/input_httpsmattermost-duo-test-yenherokuapp_4a75c3'))
+WebUI.click(findTestObject('1_Create_Team/input_httpsmattermost-duo-test-yenherokuapp_4a75c3'))
 
-WebUI.setText(findTestObject('Object Repository/1_Create_Team/Page_Mattermost/input_httpsmattermost-duo-test-yenherokuapp_4a75c3'), 
-    'yenthu0')
+WebUI.setText(findTestObject('1_Create_Team/input_httpsmattermost-duo-test-yenherokuapp_4a75c3'), 'yenthu0')
 
-WebUI.click(findTestObject('Object Repository/1_Create_Team/Page_Mattermost/span_Finish'))
+WebUI.click(findTestObject('1_Create_Team/span_Finish'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
