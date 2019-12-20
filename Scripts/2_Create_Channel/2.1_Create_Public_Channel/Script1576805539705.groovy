@@ -14,19 +14,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/select_team')
-
-WebUI.click(findTestObject('1_Create_Team/span_Create a new team'))
-
-WebUI.setText(findTestObject('1_Create_Team/input_Team Name_teamNameInput'), 'YenThu')
-
-WebUI.click(findTestObject('1_Create_Team/span_Next'))
-
-WebUI.click(findTestObject('1_Create_Team/span_Finish'))
-
-not_run: WebUI.closeBrowser()
 
