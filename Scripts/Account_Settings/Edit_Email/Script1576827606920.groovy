@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test-app-1311.herokuapp.com/triii/channels/town-square')
 
-WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/svg'))
 
 WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
 

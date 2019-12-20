@@ -30,8 +30,6 @@ WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Noti
 
 WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/label_Only for mentions and direct messages'))
 
-WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/label_On'))
-
 WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/button_Save'))
 
 WebUI.closeBrowser()
