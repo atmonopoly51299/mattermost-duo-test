@@ -14,4 +14,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420')
+
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Rename_Channel/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
+
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Rename_Channel/Page_CS420 - Bumblebee Mattermost/button_Rename Channel'))
+
+WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Rename_Channel/Page_CS420 - Bumblebee Mattermost/input_Display Name_display_name'), 
+    'CS420-BigProj')
+
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Rename_Channel/Page_CS420 - Bumblebee Mattermost/span_Save'))
 

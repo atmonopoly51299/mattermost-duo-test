@@ -18,9 +18,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420/')
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Mute_Channel/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Mute_Channel/Page_CS420 - Bumblebee Mattermost/button_Mute Channel'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)/Page_CS420 - Bumblebee Mattermost/button_Notification Preferences'))
+
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)/Page_CS420 - Bumblebee Mattermost/span_Edit'))
+
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)/Page_CS420 - Bumblebee Mattermost/input_)_channelDesktopNotifications'))
+
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)/Page_CS420 - Bumblebee Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)/Page_CS420 - Bumblebee Mattermost/span_'))
 
