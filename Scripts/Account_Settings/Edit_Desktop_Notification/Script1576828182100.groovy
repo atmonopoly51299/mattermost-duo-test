@@ -14,18 +14,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/select_team')
+WebUI.navigateToUrl('https://test-app-1311.herokuapp.com/triii/channels/town-square')
 
-WebUI.click(findTestObject('1_Create_Team/span_Create a new team'))
+WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/svg'))
 
-WebUI.setText(findTestObject('1_Create_Team/input_Team Name_teamNameInput'), 'illeniumaircon')
+WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('1_Create_Team/span_Next'))
+WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/button_Notifications'))
 
-WebUI.click(findTestObject('1_Create_Team/span_Finish'))
+WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/span_Edit'))
 
-not_run: WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/label_Only for mentions and direct messages'))
+
+WebUI.click(findTestObject('Object Repository/Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/button_Save'))
+
+WebUI.closeBrowser()
 
