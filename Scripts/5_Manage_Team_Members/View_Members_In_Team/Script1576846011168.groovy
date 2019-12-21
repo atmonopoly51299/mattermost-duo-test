@@ -14,4 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420')
+
+WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/View_Members_In_Team/Page_CS420 - Bumblebee Mattermost/span'))
+
+WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/View_Members_In_Team/Page_CS420 - Bumblebee Mattermost/button_Manage Members'))
+
+WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/View_Members_In_Team/Page_CS420 - Bumblebee Mattermost/span_'))
 

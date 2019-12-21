@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Ignore_Mentions_For_Channels</name>
-   <tag></tag>
+   <tag>UI/API</tag>
    <comment></comment>
    <testCaseGuid>07ad8836-b493-4e62-940d-ea77ba9feb0a</testCaseGuid>
 </TestCaseEntity>
