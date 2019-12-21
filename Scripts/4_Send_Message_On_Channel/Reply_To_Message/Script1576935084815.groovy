@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.facebook.com/groupcall/MESSENGER:2289674351136615/?call_id=1854582726&users_to_ring=100005152995529%2C100004720743597&has_video=0&initialize_video=0&nonce=f2c8c46ba77f01c&ext=1576933053&hash=AeQd0R_93vxAwdEE')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen')
 
 WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/svg_thutran_Layer_1'))
 

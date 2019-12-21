@@ -109,7 +109,7 @@
    <testCaseLink>
       <guid>fcd3fdb3-f08e-48a4-8fa1-5f2c2bc5f4a3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Only-text_Message</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -125,6 +125,27 @@
          <type>DATA_COLUMN</type>
          <value>Text</value>
          <variableId>3533d89e-0b89-452b-a8da-80dc2100e412</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd0ccfc5-50a1-40be-aa1a-3f7a0dfd8d8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Message_With_Emoji</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4dec83ea-1128-4b05-9e29-05701ed453e7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Send_Massage_With_Emoji</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4dec83ea-1128-4b05-9e29-05701ed453e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Message_with_emoji</value>
+         <variableId>a0851643-7ad4-4e7d-8f46-c341deb16587</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

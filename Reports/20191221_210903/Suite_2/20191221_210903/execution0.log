@@ -3297,3 +3297,168 @@
   <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\Send_Only-text_Message.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+<record>
+  <date>2019-12-21T23:45:47</date>
+  <millis>1576946747245</millis>
+  <sequence>3381</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Send_Massage_With_Emoji&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:45:47</date>
+  <millis>1576946747247</millis>
+  <sequence>3382</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:45:47</date>
+  <millis>1576946747248</millis>
+  <sequence>3383</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\Send_Massage_With_Emoji.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:45:59</date>
+  <millis>1576946759285</millis>
+  <sequence>3384</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1344</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Send_Only-text_Message&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:45:59</date>
+  <millis>1576946759287</millis>
+  <sequence>3385</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1344</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:45:59</date>
+  <millis>1576946759288</millis>
+  <sequence>3386</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1344</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\Send_Only-text_Message.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:45:59</date>
+  <millis>1576946759301</millis>
+  <sequence>3387</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1344</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Send_Massage_With_Emoji&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:45:59</date>
+  <millis>1576946759303</millis>
+  <sequence>3388</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1344</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:45:59</date>
+  <millis>1576946759303</millis>
+  <sequence>3389</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1344</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\Send_Massage_With_Emoji.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:46:35</date>
+  <millis>1576946795615</millis>
+  <sequence>3429</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1356</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Send_Massage_With_Emoji&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:46:35</date>
+  <millis>1576946795616</millis>
+  <sequence>3430</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1356</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:46:35</date>
+  <millis>1576946795617</millis>
+  <sequence>3431</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1356</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\Send_Massage_With_Emoji.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:47:26</date>
+  <millis>1576946846540</millis>
+  <sequence>3488</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1350</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Send_Massage_With_Emoji&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:47:26</date>
+  <millis>1576946846542</millis>
+  <sequence>3489</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1350</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-21T23:47:26</date>
+  <millis>1576946846542</millis>
+  <sequence>3490</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1350</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\Send_Massage_With_Emoji.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>

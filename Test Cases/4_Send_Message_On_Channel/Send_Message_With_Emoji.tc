@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>61293592-7dd2-4cba-87fd-1c6a69ddaf1c</testCaseGuid>
+   <variable>
+      <defaultValue>':thumbsup:'</defaultValue>
+      <description></description>
+      <id>a0851643-7ad4-4e7d-8f46-c341deb16587</id>
+      <masked>false</masked>
+      <name>Message_with_emoji</name>
+   </variable>
 </TestCaseEntity>
