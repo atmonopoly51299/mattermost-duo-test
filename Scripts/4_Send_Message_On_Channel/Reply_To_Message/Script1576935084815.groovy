@@ -14,4 +14,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.facebook.com/groupcall/MESSENGER:2289674351136615/?call_id=1854582726&users_to_ring=100005152995529%2C100004720743597&has_video=0&initialize_video=0&nonce=f2c8c46ba77f01c&ext=1576933053&hash=AeQd0R_93vxAwdEE')
+
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/svg_thutran_Layer_1'))
+
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_omg'), 
+    'omg')
+
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/button_thutran_CENTER_button_o91nwjhej78b3y_41b030'))
+
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/button_Reply'))
+
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_dfdfdfdf'), 
+    'dfdfdfdf')
+
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/input_Help_btn btn-primary comment-btn pull-right'))
+
+not_run: WebUI.closeBrowser()
 

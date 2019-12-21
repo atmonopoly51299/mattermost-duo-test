@@ -14,4 +14,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/bugs-private')
+
+WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/span_'))
+
+WebUI.setText(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/input_Name_newChannelName'), 
+    'Bugs Again')
+
+WebUI.setText(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/textarea_a'), 
+    'a')
+
+WebUI.setText(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/textarea_a_1'), 
+    'a')
+
+WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/span_Cancel'))
+
+not_run: WebUI.closeBrowser()
 
