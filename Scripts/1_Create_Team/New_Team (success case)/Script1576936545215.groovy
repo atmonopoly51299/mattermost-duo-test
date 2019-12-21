@@ -14,18 +14,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/select_team')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311')
 
-WebUI.click(findTestObject('1_Create_Team/span_Create a new team'))
+WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/div_'))
 
-WebUI.setText(findTestObject('1_Create_Team/input_Team Name_teamNameInput'), 'illeniumaircon')
+WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/span_Create a new team'))
 
-WebUI.click(findTestObject('1_Create_Team/span_Next'))
+WebUI.setText(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'), 
+    'Mayday')
 
-WebUI.click(findTestObject('1_Create_Team/span_Finish'))
+WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/button_Next'))
 
-not_run: WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/span_Finish'))
 
