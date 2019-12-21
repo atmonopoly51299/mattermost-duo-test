@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3d246c29-0ddc-4792-abf9-76e4d36b3746</testCaseGuid>
+   <variable>
+      <defaultValue>'BellyDancePrivate'</defaultValue>
+      <description></description>
+      <id>beea648c-c7e8-4888-97b5-cade0d5b4c6d</id>
+      <masked>false</masked>
+      <name>Channel_Name</name>
+   </variable>
 </TestCaseEntity>

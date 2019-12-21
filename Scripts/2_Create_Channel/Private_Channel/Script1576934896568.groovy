@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs - 
 WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs - Bumblebee Mattermost/div_URL  (Edit)'))
 
 WebUI.setText(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs - Bumblebee Mattermost/input_Name_newChannelName'), 
-    'Bugs Private')
+    Channel_Name)
 
 WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs - Bumblebee Mattermost/span_Create New Channel'))
 

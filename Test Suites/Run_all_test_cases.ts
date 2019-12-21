@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>4ba239e5-2039-4840-a944-7921e110c076</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/1_Create_Team/New_Team (success case)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -48,8 +48,83 @@
       <variableLink>
          <testDataLinkId>df14db7a-6037-439a-a96a-0e722897ae26</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>exist_team_name</value>
+         <value></value>
          <variableId>84ef91eb-a811-43bc-9640-9e4529f9114c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa8c537c-50b0-4cce-b65f-47204867bfd4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/2_Create_Channel/Public_Channel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6577942b-6d85-4fa1-832a-05838ca1ef7f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Public_Channel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6577942b-6d85-4fa1-832a-05838ca1ef7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Channel_Name</value>
+         <variableId>5adfc3cb-bd9b-47b9-9aef-3dbcb2a93639</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6577942b-6d85-4fa1-832a-05838ca1ef7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Channel_Purpose</value>
+         <variableId>cc8c543f-43ca-4593-8043-df5e42c451e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6577942b-6d85-4fa1-832a-05838ca1ef7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Channel_Header</value>
+         <variableId>4c6f0892-62b1-4d2f-94ab-1e8218deb054</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a2c8908-f2f6-41d0-ba75-bc6d99164a74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/2_Create_Channel/Private_Channel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fa9dca42-15f5-4f4e-87a9-1aa3aa56de55</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Private_Channel</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fa9dca42-15f5-4f4e-87a9-1aa3aa56de55</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Channel_Name</value>
+         <variableId>beea648c-c7e8-4888-97b5-cade0d5b4c6d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fcd3fdb3-f08e-48a4-8fa1-5f2c2bc5f4a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Only-text_Message</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>acbb9684-65f8-4881-a836-23518dba3f46</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Send_Only-text_Message</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>acbb9684-65f8-4881-a836-23518dba3f46</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Text</value>
+         <variableId>3533d89e-0b89-452b-a8da-80dc2100e412</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

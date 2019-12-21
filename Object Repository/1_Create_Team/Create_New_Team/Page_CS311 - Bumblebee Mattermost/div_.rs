@@ -3,11 +3,11 @@
    <description></description>
    <name>div_</name>
    <tag></tag>
-   <elementGuidId>6fc13a20-4b0f-464a-893c-65d0fc453e2f</elementGuidId>
+   <elementGuidId>ab484578-bf90-47fc-a815-f89426c31c8b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='select_teamTeamButton']/div</value>
+         <value>//a[@id='create_teamTeamButton']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-      <value>tooltip-/select_team</value>
+      <value>tooltip-/create_team</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,14 +45,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;select_teamTeamButton&quot;)/div[@class=&quot;team-btn team-btn__add&quot;]</value>
+      <value>id(&quot;create_teamTeamButton&quot;)/div[@class=&quot;team-btn team-btn__add&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='select_teamTeamButton']/div</value>
+      <value>//a[@id='create_teamTeamButton']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/a/div</value>
+      <value>//div[8]/a/div</value>
    </webElementXpaths>
 </WebElementEntity>

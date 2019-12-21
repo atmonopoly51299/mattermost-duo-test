@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Finish</name>
    <tag></tag>
-   <elementGuidId>36735c3e-efef-4af8-9c16-1e051bc40fa4</elementGuidId>
+   <elementGuidId>58834b9b-73b1-4e6c-a1ae-6e127e4a1605</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

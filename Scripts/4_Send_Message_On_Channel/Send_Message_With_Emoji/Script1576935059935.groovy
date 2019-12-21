@@ -37,5 +37,8 @@ WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuy
 WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_stuck_out_tongue_closed_eyes aston_994d01'), 
     ':stuck_out_tongue_closed_eyes: :astonished: dad')
 
+WebUI.sendKeys(findTestObject('4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_stuck_out_tongue_closed_eyes aston_994d01'), 
+    Keys.chord(Keys.ENTER))
+
 not_run: WebUI.closeBrowser()
 

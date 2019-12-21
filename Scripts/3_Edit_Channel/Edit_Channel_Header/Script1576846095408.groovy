@@ -24,32 +24,10 @@ WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header
 
 WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/button_Edit Channel Header'))
 
-WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_httpscoursesfithcmuseduvnctdblogin_64ee8d'), 
-    ' https://courses.fit.hcmus.edu.vn/ctdb/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_M httpscoursesfithcmuseduvnctdblog_df1c9e'), 
-    'M https://courses.fit.hcmus.edu.vn/ctdb/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_Mo httpscoursesfithcmuseduvnctdblo_601efd'), 
-    'Mo https://courses.fit.hcmus.edu.vn/ctdb/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_Moo httpscoursesfithcmuseduvnctdbl_5efa57'), 
-    'Moo https://courses.fit.hcmus.edu.vn/ctdb/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_Mood httpscoursesfithcmuseduvnctdb_67e78d'), 
-    'Mood https://courses.fit.hcmus.edu.vn/ctdb/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_Moodl httpscoursesfithcmuseduvnctd_afc29a'), 
-    'Moodl https://courses.fit.hcmus.edu.vn/ctdb/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_Moodle httpscoursesfithcmuseduvnct_24cc72'), 
-    'Moodle https://courses.fit.hcmus.edu.vn/ctdb/login/index.php')
-
-WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_Moodle (httpscoursesfithcmuseduvnc_7fa8e0'), 
-    'Moodle (https://courses.fit.hcmus.edu.vn/ctdb/login/index.php')
-
 WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_Moodle (httpscoursesfithcmuseduvnc_ebf0b0'), 
     'Moodle (https://courses.fit.hcmus.edu.vn/ctdb/login/index.php)')
 
 WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/span_Save'))
+
+not_run: WebUI.delay(3)
 
