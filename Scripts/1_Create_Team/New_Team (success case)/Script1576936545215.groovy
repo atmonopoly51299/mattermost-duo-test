@@ -31,3 +31,5 @@ WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page
 
 WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/span_Finish'))
 
+WebUI.delay(2)
+

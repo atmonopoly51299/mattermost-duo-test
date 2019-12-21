@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>f46ed03f-68c1-440a-a424-b8a7dfc22b78</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Bumblebee'</defaultValue>
       <description></description>
       <id>84ef91eb-a811-43bc-9640-9e4529f9114c</id>
       <masked>false</masked>

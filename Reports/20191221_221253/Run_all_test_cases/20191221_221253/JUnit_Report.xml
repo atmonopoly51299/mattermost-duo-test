@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run_all_test_cases" time="61.087" tests="6" failures="0" errors="0">
+   <testsuite name="Run_all_test_cases" tests="6" failures="0" errors="0" time="61.087" timestamp="2019-12-21 22:13:10" hostname="Ng\u1ECDc Y\u1EBFn - 192.168.1.2" id="Test Suites/Run_all_test_cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\CS300-project\\2 points\\mattermost-duo-test\\Reports\\20191221_221253\\Run_all_test_cases\\20191221_221253"/>
+         <property name="logFiles" value="D:\\CS300-project\\2 points\\mattermost-duo-test\\Reports\\20191221_221253\\Run_all_test_cases\\20191221_221253\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ng\u1ECDc Y\u1EBFn - 192.168.1.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Edge 18"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="5807E890-ACD5-46E3-9DAC-018C71B8FD16"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1_Create_Team/Existed_Team_Name" time="12.03" classname="Test Cases/1_Create_Team/Existed_Team_Name" status="PASSED">
+         <system-out><![CDATA[2019-12-21 22:13:10 - [TEST_CASE][PASSED] - Test Cases/1_Create_Team/Existed_Team_Name: Test Cases/1_Create_Team/Existed_Team_Name
+
+2019-12-21 22:13:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-21 22:13:12 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-21 22:13:12 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-21 22:13:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-21 22:13:15 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:17 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:17 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:21 - [TEST_STEP][PASSED] - setText(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput"), exist_team_name): Text 'Bumblebee' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:22 - [MESSAGE][PASSED] - Text 'Bumblebee' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:22 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:13:22 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on
+
+2019-12-21 22:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1_Create_Team/Existed_Team_Name" time="9.373" classname="Test Cases/1_Create_Team/Existed_Team_Name" status="PASSED">
+         <system-out><![CDATA[2019-12-21 22:13:22 - [TEST_CASE][PASSED] - Test Cases/1_Create_Team/Existed_Team_Name: Test Cases/1_Create_Team/Existed_Team_Name
+
+2019-12-21 22:13:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-21 22:13:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-21 22:13:23 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-21 22:13:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-21 22:13:25 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:27 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:27 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:30 - [TEST_STEP][PASSED] - setText(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput"), exist_team_name): Text 'CS311' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:31 - [MESSAGE][PASSED] - Text 'CS311' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:31 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:13:31 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on
+
+2019-12-21 22:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1_Create_Team/Existed_Team_Name" time="9.238" classname="Test Cases/1_Create_Team/Existed_Team_Name" status="PASSED">
+         <system-out><![CDATA[2019-12-21 22:13:32 - [TEST_CASE][PASSED] - Test Cases/1_Create_Team/Existed_Team_Name: Test Cases/1_Create_Team/Existed_Team_Name
+
+2019-12-21 22:13:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-21 22:13:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-21 22:13:33 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-21 22:13:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-21 22:13:34 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:36 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:36 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:39 - [TEST_STEP][PASSED] - setText(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput"), exist_team_name): Text 'IlleniumAirCon' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:40 - [MESSAGE][PASSED] - Text 'IlleniumAirCon' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:40 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:13:41 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on
+
+2019-12-21 22:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1_Create_Team/Existed_Team_Name" time="9.43" classname="Test Cases/1_Create_Team/Existed_Team_Name" status="PASSED">
+         <system-out><![CDATA[2019-12-21 22:13:41 - [TEST_CASE][PASSED] - Test Cases/1_Create_Team/Existed_Team_Name: Test Cases/1_Create_Team/Existed_Team_Name
+
+2019-12-21 22:13:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-21 22:13:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-21 22:13:42 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-21 22:13:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-21 22:13:44 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:45 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:45 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput"), exist_team_name): Text 'Mayday' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:50 - [MESSAGE][PASSED] - Text 'Mayday' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:50 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:13:50 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on
+
+2019-12-21 22:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1_Create_Team/Existed_Team_Name" time="9.43" classname="Test Cases/1_Create_Team/Existed_Team_Name" status="PASSED">
+         <system-out><![CDATA[2019-12-21 22:13:51 - [TEST_CASE][PASSED] - Test Cases/1_Create_Team/Existed_Team_Name: Test Cases/1_Create_Team/Existed_Team_Name
+
+2019-12-21 22:13:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-21 22:13:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-21 22:13:51 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-21 22:13:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-21 22:13:53 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:55 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:13:55 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:13:58 - [TEST_STEP][PASSED] - setText(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput"), exist_team_name): Text 'trii' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:59 - [MESSAGE][PASSED] - Text 'trii' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:13:59 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:14:00 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on
+
+2019-12-21 22:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1_Create_Team/Existed_Team_Name" time="9.611" classname="Test Cases/1_Create_Team/Existed_Team_Name" status="PASSED">
+         <system-out><![CDATA[2019-12-21 22:14:00 - [TEST_CASE][PASSED] - Test Cases/1_Create_Team/Existed_Team_Name: Test Cases/1_Create_Team/Existed_Team_Name
+
+2019-12-21 22:14:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-21 22:14:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-21 22:14:01 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-21 22:14:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-21 22:14:03 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:14:05 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311' successfully
+
+2019-12-21 22:14:05 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_' is clicked on
+
+2019-12-21 22:14:08 - [TEST_STEP][PASSED] - setText(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput"), exist_team_name): Text 'YenThu' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:14:09 - [MESSAGE][PASSED] - Text 'YenThu' is set on object 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'
+
+2019-12-21 22:14:09 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next' is clicked on
+
+2019-12-21 22:14:09 - [TEST_STEP][PASSED] - click(findTestObject("1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish")): Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on
+
+2019-12-21 22:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-21 22:13:10 - [TEST_SUITE][PASSED] - Run_all_test_cases: Test Cases/1_Create_Team/Existed_Team_Name]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
