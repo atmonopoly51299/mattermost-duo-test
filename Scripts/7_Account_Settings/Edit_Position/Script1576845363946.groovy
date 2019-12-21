@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://test-app-1311.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
 
 WebUI.click(findTestObject('7_Account_Settings/Edit_Position/Page_Town Square - New_Team_Name Mattermost/svg'))
 
