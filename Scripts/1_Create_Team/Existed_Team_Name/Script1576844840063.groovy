@@ -18,15 +18,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/select_team')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311')
 
-WebUI.click(findTestObject('1_Create_Team/span_Create a new team'))
+WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_'))
 
-WebUI.setText(findTestObject('1_Create_Team/input_Team Name_teamNameInput'), 'YenThu')
+WebUI.setText(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'), 
+    'Bumblebee')
 
-WebUI.click(findTestObject('1_Create_Team/span_Next'))
+WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next'))
 
-WebUI.click(findTestObject('1_Create_Team/span_Finish'))
-
-not_run: WebUI.closeBrowser()
+WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish'))
 

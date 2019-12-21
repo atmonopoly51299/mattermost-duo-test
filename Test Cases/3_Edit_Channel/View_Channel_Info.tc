@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>View_Channel_Info</name>
-   <tag></tag>
+   <tag>UI/API</tag>
    <comment></comment>
    <testCaseGuid>a32d9478-643f-407d-9bf2-e9a25ef8ccb5</testCaseGuid>
 </TestCaseEntity>

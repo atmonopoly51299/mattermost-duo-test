@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Send_Channel_Desktop_Notifications_(For_all_activity)</name>
-   <tag></tag>
+   <tag>UI/API</tag>
    <comment></comment>
    <testCaseGuid>18822a29-edc4-489c-ac84-14e440b4bebd</testCaseGuid>
 </TestCaseEntity>

@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Mute_Channel</name>
-   <tag></tag>
+   <tag>UI/API</tag>
    <comment></comment>
    <testCaseGuid>6cbfe0dd-4139-4bc9-bea1-977f04984707</testCaseGuid>
 </TestCaseEntity>
