@@ -364,4 +364,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Email_Notifications</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1b2fda9b-089a-4ed5-8e89-a678966698ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_For_Phrases</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0e9b5735-a7c3-4836-aa27-89664d06292d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_On_Specific_Date</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

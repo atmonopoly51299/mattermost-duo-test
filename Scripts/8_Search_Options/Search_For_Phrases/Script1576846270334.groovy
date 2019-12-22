@@ -14,4 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen')
+
+WebUI.setText(findTestObject('8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'), 
+    '"little"')
+
+WebUI.sendKeys(findTestObject('8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'), 
+    Keys.chord(Keys.ENTER))
+
+not_run: WebUI.closeBrowser()
 
