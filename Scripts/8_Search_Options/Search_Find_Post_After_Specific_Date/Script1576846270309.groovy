@@ -20,11 +20,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420#')
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Get_Team_Invite_Link/Page_CS420 - Bumblebee Mattermost/path'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Get_Team_Invite_Link/Page_CS420 - Bumblebee Mattermost/button_Get Team Invite Link'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Get_Team_Invite_Link/Page_CS420 - Bumblebee Mattermost/span_Copy Link'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Get_Team_Invite_Link/Page_CS420 - Bumblebee Mattermost/span_Close'))
+WebUI.click(findTestObject('null'))
 

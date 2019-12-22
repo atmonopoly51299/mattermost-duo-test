@@ -34,5 +34,5 @@ WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Tow
 
 WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Town Square - New_Team_Name Mattermost/span_Save'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

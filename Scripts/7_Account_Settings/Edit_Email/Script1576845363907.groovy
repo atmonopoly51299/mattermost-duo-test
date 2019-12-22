@@ -37,5 +37,5 @@ WebUI.setText(findTestObject('7_Account_Settings/Edit_Email/Page_Town Square - N
 
 WebUI.click(findTestObject('7_Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/button_Save'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

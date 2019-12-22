@@ -20,19 +20,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen')
 
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/svg_thutran_Layer_1'))
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/svg_ngocyen_Layer_1'))
 
-WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_omg'), 
-    'omg')
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/textarea_HI ME'), 'HI ME')
 
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/button_thutran_CENTER_button_o91nwjhej78b3y_41b030'))
-
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/button_Reply'))
-
-WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_dfdfdfdf'), 
-    'dfdfdfdf')
-
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/input_Help_btn btn-primary comment-btn pull-right'))
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/input_Help_btn btn-primary comment-btn pull-right'))
 
 not_run: WebUI.closeBrowser()
 

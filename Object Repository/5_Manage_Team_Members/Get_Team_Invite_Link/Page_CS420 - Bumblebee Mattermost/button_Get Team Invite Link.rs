@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Get Team Invite Link</name>
    <tag></tag>
-   <elementGuidId>4f0a1edf-9ea6-4774-a970-8bb205a0d5aa</elementGuidId>
+   <elementGuidId>b63772d4-a98d-46e3-9fcc-1bd9528cce95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

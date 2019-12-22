@@ -39,5 +39,5 @@ WebUI.setEncryptedText(findTestObject('7_Account_Settings/Edit_Password/Page_Tow
 
 WebUI.click(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/button_Save'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

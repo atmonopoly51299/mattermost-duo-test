@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/cha
 WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_'))
 
 WebUI.setText(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'), 
-    exist_team_name)
+    existed_team_name)
 
 WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next'))
 

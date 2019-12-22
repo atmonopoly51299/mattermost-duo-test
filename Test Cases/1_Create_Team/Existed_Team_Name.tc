@@ -10,6 +10,6 @@
       <description></description>
       <id>84ef91eb-a811-43bc-9640-9e4529f9114c</id>
       <masked>false</masked>
-      <name>exist_team_name</name>
+      <name>existed_team_name</name>
    </variable>
 </TestCaseEntity>

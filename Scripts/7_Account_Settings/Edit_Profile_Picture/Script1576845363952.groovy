@@ -30,5 +30,5 @@ WebUI.click(findTestObject('7_Account_Settings/Edit_Profile_Picture/Page_Town Sq
 
 WebUI.click(findTestObject('7_Account_Settings/Edit_Profile_Picture/Page_Town Square - New_Team_Name Mattermost/span_Save'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

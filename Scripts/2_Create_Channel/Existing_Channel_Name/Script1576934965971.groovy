@@ -18,21 +18,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/bugs-private')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/bugs')
 
-WebUI.click(findTestObject('Page_(2)  Bugs Private - Bumblebee Mattermost/span_ (1)'))
+WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_Bugs - Bumblebee Mattermost/span_'))
 
-WebUI.setText(findTestObject('Page_(2)  Bugs Private - Bumblebee Mattermost/input_Name_newChannelName (1)'), 'Bugs')
+WebUI.setText(findTestObject('Object Repository/2_Create_Channel/Page_Bugs - Bumblebee Mattermost/input_Name_newChannelName'), 
+    'Bugs')
 
-WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/button_Create New Channel'))
+WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_Bugs - Bumblebee Mattermost/span_Create New Channel'))
 
-WebUI.doubleClick(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/button_Create New Channel'))
-
-WebUI.rightClick(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/button_Create New Channel'))
-
-WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/button_Create New Channel'))
-
-WebUI.click(findTestObject('Page_(2)  Bugs Private - Bumblebee Mattermost/span_Cancel (1)'))
+WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_Bugs - Bumblebee Mattermost/button_Cancel'))
 
 not_run: WebUI.closeBrowser()
 

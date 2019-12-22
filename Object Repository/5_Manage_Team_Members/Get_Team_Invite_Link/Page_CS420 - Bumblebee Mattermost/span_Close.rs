@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Close</name>
    <tag></tag>
-   <elementGuidId>a91e5739-a15d-4267-8036-376a773ba035</elementGuidId>
+   <elementGuidId>74cd264f-c11d-4e7d-8880-60fb786e8b12</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

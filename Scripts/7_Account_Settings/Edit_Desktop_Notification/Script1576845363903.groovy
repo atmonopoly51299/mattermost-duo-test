@@ -32,5 +32,5 @@ WebUI.click(findTestObject('7_Account_Settings/Edit_Desktop_Notifications/Page_T
 
 WebUI.click(findTestObject('7_Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/button_Save'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

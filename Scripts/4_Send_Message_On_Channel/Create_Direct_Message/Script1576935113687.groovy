@@ -18,13 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/bugs-private')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311')
 
-WebUI.click(findTestObject('Page_(2)  Bugs Private - Bumblebee Mattermost/span_ (2)'))
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_CS311 - Bumblebee Mattermost/span_'))
 
-WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/div_tringuyen'))
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_CS311 - Bumblebee Mattermost/div_tringuyen'))
 
-WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Bugs Private - Bumblebee Mattermost/button_Go'))
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_CS311 - Bumblebee Mattermost/button_Go'))
 
 not_run: WebUI.closeBrowser()
 
