@@ -18,22 +18,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.youtube.com/watch?v=BVomQtrtMTM&list=RDm_qlgFQs7E4&index=3')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
 
-WebUI.click(findTestObject('6_Team_Settings/5.6_Edit_Team_Name/Page_Town Square - TRIII Mattermost/svg'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/svg'))
 
-WebUI.click(findTestObject('6_Team_Settings/5.6_Edit_Team_Name/Page_Town Square - TRIII Mattermost/button_Team Settings'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Team Settings'))
 
-WebUI.click(findTestObject('6_Team_Settings/5.6_Edit_Team_Name/Page_Town Square - TRIII Mattermost/button_General'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
 
-WebUI.click(findTestObject('6_Team_Settings/5.6_Edit_Team_Name/Page_Town Square - TRIII Mattermost/span_Edit'))
+WebUI.setText(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Team Name_teamName'), 
+    'Bumblebee1')
 
-WebUI.doubleClick(findTestObject('6_Team_Settings/5.6_Edit_Team_Name/Page_Town Square - TRIII Mattermost/input_Team Name_teamName'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
 
-WebUI.setText(findTestObject('6_Team_Settings/5.6_Edit_Team_Name/Page_Town Square - TRIII Mattermost/input_Team Name_teamName'), 
-    'New Team Name')
-
-WebUI.click(findTestObject('6_Team_Settings/5.6_Edit_Team_Name/Page_Town Square - TRIII Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Name/Page_1HDHFClGY4 - Bumblebee1 Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 

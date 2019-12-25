@@ -18,24 +18,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Desktop_Notifications/Page_Town Square - New_Team_Name Mattermost/svg'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email/Page_1HDHFClGY4 - Bumblebee Mattermost/svg'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
 
-WebUI.setEncryptedText(findTestObject('7_Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/input_Current Password_currentPassword'), 
-    'i0/aBnOaKaUS4hpCx5x3Fg==')
+WebUI.setText(findTestObject('Object Repository/7_Account_Settings/Edit_Email/Page_1HDHFClGY4 - Bumblebee Mattermost/input_New Email_primaryEmail'), 
+    'new_email@gmail.com')
 
-WebUI.setText(findTestObject('7_Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/input_New Email_primaryEmail'), 
-    'some_new_email@apcs.vn')
+WebUI.setText(findTestObject('Object Repository/7_Account_Settings/Edit_Email/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Confirm Email_confirmEmail'), 
+    'new_email@gmail.com')
 
-WebUI.setText(findTestObject('7_Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/input_Confirm Email_confirmEmail'), 
-    'some_new_email@apcs.vn')
+WebUI.setEncryptedText(findTestObject('Object Repository/7_Account_Settings/Edit_Email/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Current Password_currentPassword'), 
+    'o2DLlA8X+7c=')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Email/Page_Town Square - New_Team_Name Mattermost/button_Save'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email/Page_1HDHFClGY4 - Bumblebee Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 

@@ -18,18 +18,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
 
-WebUI.click(findTestObject('6_Team_Settings/5.4_Edit_Team_Description/Page_Town Square - New_Team_Name Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Description/Page_1HDHFClGY4 - Bumblebee Mattermost/svg'))
 
-WebUI.click(findTestObject('6_Team_Settings/5.4_Edit_Team_Description/Page_Town Square - New_Team_Name Mattermost/button_Team Settings'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Description/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Team Settings'))
 
-WebUI.click(findTestObject('6_Team_Settings/5.4_Edit_Team_Description/Page_Town Square - New_Team_Name Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Description/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
 
-WebUI.setText(findTestObject('6_Team_Settings/5.4_Edit_Team_Description/Page_Town Square - New_Team_Name Mattermost/input_Team Description_teamDescription'), 
-    'This is new description')
+WebUI.setText(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Description/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Team Description_teamDescription'), 
+    'New Description')
 
-WebUI.click(findTestObject('6_Team_Settings/5.4_Edit_Team_Description/Page_Town Square - New_Team_Name Mattermost/button_Save'))
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Description/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Description/Page_1HDHFClGY4 - Bumblebee Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 
