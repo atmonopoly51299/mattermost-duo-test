@@ -18,13 +18,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420#')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen')
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'), 
+    'after:')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_23'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'), 
+    'after:2019-12-23 ')
 
-WebUI.click(findTestObject('null'))
+WebUI.sendKeys(findTestObject('Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'), 
+    Keys.chord(Keys.ENTER))
+
+not_run: WebUI.closeBrowser()
 

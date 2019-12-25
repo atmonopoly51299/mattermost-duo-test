@@ -14,4 +14,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum')
+
+WebUI.setText(findTestObject('8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'), 
+    'from:')
+
+WebUI.click(findTestObject('8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/span_ngocyen'))
+
+WebUI.setText(findTestObject('8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'), 
+    'from:ngocyen ')
+
+WebUI.sendKeys(findTestObject('8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'), 
+    Keys.chord(Keys.ENTER))
+
+not_run: WebUI.closeBrowser()
 

@@ -131,24 +131,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c351901-f344-4271-b4dc-d617eb561458</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/3_Edit_Channel/Mute_Channel</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2756a2e5-07db-479a-ae6f-bcf88d3f396f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/3_Edit_Channel/Rename_Channel</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5ed0baa3-3208-495d-9a73-b8ab06b491d9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d36d6843-252e-45b4-aadf-02aef08d3bf1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -167,16 +149,34 @@
       <testCaseId>Test Cases/3_Edit_Channel/Edit_Channel_Purpose</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5cbbf37-c7e9-4514-a83a-4acacf044a26</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/3_Edit_Channel/Ignore_Mentions_For_Channels</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8057056a-5e17-4b14-b237-ab957d3431d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/3_Edit_Channel/View_Channel_Info</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c351901-f344-4271-b4dc-d617eb561458</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Mute_Channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2756a2e5-07db-479a-ae6f-bcf88d3f396f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Rename_Channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ed0baa3-3208-495d-9a73-b8ab06b491d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5cbbf37-c7e9-4514-a83a-4acacf044a26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Ignore_Mentions_For_Channels</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>64223cd5-b281-4fae-ac73-32d1c98bba03</guid>
@@ -287,10 +287,10 @@
       <testCaseId>Test Cases/6_Team_Settings/Edit_Team_Name</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>34fe2953-de4b-4e12-bfcc-e330b2ad78f2</guid>
+      <guid>5955e603-9f5b-4de1-adfd-7624b8a95e78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/6_Team_Settings/Edit_Team_Icon</testCaseId>
+      <testCaseId>Test Cases/7_Account_Settings/Edit_User_Name</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b926033c-939c-478b-a0ff-f3d7e8243167</guid>
@@ -299,22 +299,10 @@
       <testCaseId>Test Cases/7_Account_Settings/Edit_Full_Name</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>05942f37-962b-4eed-a47c-486126d99802</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Mobile_Push_Classification</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d312e31b-477e-4c52-be2f-2a28cd2d5b8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Nick_Name</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c3cc412d-91aa-4050-95c1-07ec3aec74fa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>368e942f-8193-4ce3-9347-76fe012b4e89</guid>
@@ -323,22 +311,28 @@
       <testCaseId>Test Cases/7_Account_Settings/Edit_Position</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>196a8e86-3a19-4a4b-a333-b2ebc574d91d</guid>
+      <guid>b1541a42-f7d9-46cb-b0a1-c3daea465cae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Profile_Picture</testCaseId>
+      <testCaseId>Test Cases/7_Account_Settings/Edit_Email</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e10d85d-0004-4154-9076-694a850fa7f3</guid>
+      <guid>c3cc412d-91aa-4050-95c1-07ec3aec74fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Reply_Notifications</testCaseId>
+      <testCaseId>Test Cases/7_Account_Settings/Edit_Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5955e603-9f5b-4de1-adfd-7624b8a95e78</guid>
+      <guid>af942534-c7d8-439f-830c-e95b0a14c3d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_User_Name</testCaseId>
+      <testCaseId>Test Cases/7_Account_Settings/Edit_Email_Notifications</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>05942f37-962b-4eed-a47c-486126d99802</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/7_Account_Settings/Edit_Mobile_Push_Classification</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eb6e6e04-764e-424e-b130-b7ee4503aeea</guid>
@@ -353,16 +347,10 @@
       <testCaseId>Test Cases/7_Account_Settings/Edit_Desktop_Notification</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b1541a42-f7d9-46cb-b0a1-c3daea465cae</guid>
+      <guid>1e10d85d-0004-4154-9076-694a850fa7f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Email</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>af942534-c7d8-439f-830c-e95b0a14c3d1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Email_Notifications</testCaseId>
+      <testCaseId>Test Cases/7_Account_Settings/Edit_Reply_Notifications</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1b2fda9b-089a-4ed5-8e89-a678966698ca</guid>
@@ -375,5 +363,29 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_On_Specific_Date</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b92dd9b8-44d1-49d0-acf7-f54534f431d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_From_Specific_User</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5cc5504-1268-4bc8-ae3e-164b8dda4433</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_From_Specific_Channels</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4446b7e0-b8c5-492c-9acf-2f0a58fa0266</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_Before_Specific_Date</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b8bc61b0-e54e-4178-a86b-0f7a8e5d85c5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_After_Specific_Date</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -18,18 +18,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Nick_Name/Page_Town Square - New_Team_Name Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/svg'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Nick_Name/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Nick_Name/Page_Town Square - New_Team_Name Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
 
-WebUI.setText(findTestObject('7_Account_Settings/Edit_Nick_Name/Page_Town Square - New_Team_Name Mattermost/input_Nickname_nickname'), 
-    'Some_Nickname')
+WebUI.setText(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Nickname_nickname'), 
+    'New Nickname')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Nick_Name/Page_Town Square - New_Team_Name Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 

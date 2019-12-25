@@ -18,26 +18,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/svg'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/button_Security'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Security'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
 
-WebUI.setEncryptedText(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/input_Current Password_currentPassword'), 
-    'i0/aBnOaKaUS4hpCx5x3Fg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Current Password_currentPassword'), 
+    'o2DLlA8X+7c=')
 
-WebUI.setEncryptedText(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/input_New Password_newPassword'), 
-    'i0/aBnOaKaWJHHkicaSmSg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/input_New Password_newPassword'), 
+    'A2cQRk4wL76NIEMBIptdXA==')
 
-WebUI.setEncryptedText(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/input_Retype New Password_confirmPassword'), 
-    'i0/aBnOaKaWJHHkicaSmSg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Retype New Password_confirmPassword'), 
+    'A2cQRk4wL76NIEMBIptdXA==')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Password/Page_Town Square - New_Team_Name Mattermost/button_Save'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Password/Page_1HDHFClGY4 - Bumblebee Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 
