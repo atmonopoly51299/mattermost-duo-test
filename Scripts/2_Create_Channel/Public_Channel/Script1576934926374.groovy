@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/town-square')
+WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Town Square - Bumblebee Mattermost/span_'))
 

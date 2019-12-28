@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum')
+WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.maximizeWindow()
 

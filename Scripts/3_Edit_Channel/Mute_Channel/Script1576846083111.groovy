@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420')
+WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Mute_Channel/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
 

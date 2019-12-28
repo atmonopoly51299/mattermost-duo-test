@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
+WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.click(findTestObject('6_Team_Settings/Allow_Any_Join_Team/Page_1HDHFClGY4 - Bumblebee Mattermost/span'))
 

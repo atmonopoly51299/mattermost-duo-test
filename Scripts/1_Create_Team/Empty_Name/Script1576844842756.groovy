@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/select_team')
+WebUI.navigateToUrl('http://localhost:8065/')
 
 WebUI.click(findTestObject('1_Create_Team/span_Create a new team'))
 
