@@ -352,4 +352,40 @@
          <variableId>3533d89e-0b89-452b-a8da-80dc2100e412</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3a8a7878-ed7b-4f32-a07e-4fd6cbccf6fd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_After_Specific_Date</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8710406-6805-441d-a3f1-d9b4b040124c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_Before_Specific_Date</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1804fa17-e937-491e-bae8-e2ae17265562</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_From_Specific_Channels</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6ea8805-7c9b-472c-b223-88bf3992871d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_From_Specific_User</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0aac24a-ffe2-4865-8629-f1f4fde66d3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_Find_Post_On_Specific_Date</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c0290b2e-3d1a-462c-82d1-b2de006e832d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/8_Search_Options/Search_For_Phrases</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
