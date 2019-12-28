@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run_all_test_cases" time="68.588" tests="6" failures="0" errors="0">
+   <testsuite name="Run_all_test_cases" tests="6" failures="0" errors="0" time="68.588" timestamp="2019-12-25 13:59:31" hostname="Ng\u1ECDc Y\u1EBFn - 192.168.1.7" id="Test Suites/Run_all_test_cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\CS300-project\\2 points\\mattermost-duo-test\\Reports\\20191225_135928\\Run_all_test_cases\\20191225_135928"/>
+         <property name="logFiles" value="D:\\CS300-project\\2 points\\mattermost-duo-test\\Reports\\20191225_135928\\Run_all_test_cases\\20191225_135928\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ng\u1ECDc Y\u1EBFn - 192.168.1.7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Edge 18"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="CC9E9A92-F4E8-4FC5-9887-E212821F706A"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/8_Search_Options/Search_For_Phrases" time="17.103" classname="Test Cases/8_Search_Options/Search_For_Phrases" status="PASSED">
+         <system-out><![CDATA[2019-12-25 13:59:31 - [TEST_CASE][PASSED] - Test Cases/8_Search_Options/Search_For_Phrases: Test Cases/8_Search_Options/Search_For_Phrases
+
+2019-12-25 13:59:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-25 13:59:32 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-25 13:59:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-25 13:59:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-25 13:59:34 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen' successfully
+
+2019-12-25 13:59:35 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen' successfully
+
+2019-12-25 13:59:35 - [TEST_STEP][PASSED] - setText(findTestObject("8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), ""little""): Text '"little"' is set on object 'Object Repository/8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:47 - [MESSAGE][PASSED] - Text '"little"' is set on object 'Object Repository/8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-25 13:59:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-25 13:59:48 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-12-25 13:59:48 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/8_Search_Options/Search_Find_Post_On_Specific_Date" time="10.335" classname="Test Cases/8_Search_Options/Search_Find_Post_On_Specific_Date" status="PASSED">
+         <system-out><![CDATA[2019-12-25 13:59:48 - [TEST_CASE][PASSED] - Test Cases/8_Search_Options/Search_Find_Post_On_Specific_Date: Test Cases/8_Search_Options/Search_Find_Post_On_Specific_Date
+
+2019-12-25 13:59:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-25 13:59:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-25 13:59:49 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-25 13:59:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-25 13:59:50 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen' successfully
+
+2019-12-25 13:59:52 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen' successfully
+
+2019-12-25 13:59:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), "on:"): Text 'on:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:56 - [MESSAGE][PASSED] - Text 'on:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_21")): Object: 'Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_21' is clicked on
+
+2019-12-25 13:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_21' is clicked on
+
+2019-12-25 13:59:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), "on:2019-12-21 "): Text 'on:2019-12-21 ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:57 - [MESSAGE][PASSED] - Text 'on:2019-12-21 ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_On_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 13:59:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-25 13:59:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-25 13:59:59 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-12-25 13:59:59 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/8_Search_Options/Search_Find_Post_From_Specific_User" time="10.31" classname="Test Cases/8_Search_Options/Search_Find_Post_From_Specific_User" status="PASSED">
+         <system-out><![CDATA[2019-12-25 13:59:59 - [TEST_CASE][PASSED] - Test Cases/8_Search_Options/Search_Find_Post_From_Specific_User: Test Cases/8_Search_Options/Search_Find_Post_From_Specific_User
+
+2019-12-25 13:59:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-25 13:59:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-25 13:59:59 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-25 14:00:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-25 14:00:01 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum' successfully
+
+2019-12-25 14:00:02 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum' successfully
+
+2019-12-25 14:00:02 - [TEST_STEP][PASSED] - setText(findTestObject("8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox"), "from:"): Text 'from:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:05 - [MESSAGE][PASSED] - Text 'from:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:05 - [TEST_STEP][PASSED] - click(findTestObject("8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/span_ngocyen")): Object: 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/span_ngocyen' is clicked on
+
+2019-12-25 14:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/span_ngocyen' is clicked on
+
+2019-12-25 14:00:07 - [TEST_STEP][PASSED] - setText(findTestObject("8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox"), "from:ngocyen "): Text 'from:ngocyen ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:07 - [MESSAGE][PASSED] - Text 'from:ngocyen ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-25 14:00:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-25 14:00:09 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-12-25 14:00:09 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/8_Search_Options/Search_Find_Post_From_Specific_Channels" time="9.555" classname="Test Cases/8_Search_Options/Search_Find_Post_From_Specific_Channels" status="PASSED">
+         <system-out><![CDATA[2019-12-25 14:00:09 - [TEST_CASE][PASSED] - Test Cases/8_Search_Options/Search_Find_Post_From_Specific_Channels: Test Cases/8_Search_Options/Search_Find_Post_From_Specific_Channels
+
+2019-12-25 14:00:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-25 14:00:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-25 14:00:10 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-25 14:00:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-25 14:00:11 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum' successfully
+
+2019-12-25 14:00:12 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum' successfully
+
+2019-12-25 14:00:12 - [TEST_STEP][PASSED] - setText(findTestObject("8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox"), "in:"): Text 'in:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:15 - [MESSAGE][PASSED] - Text 'in:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:15 - [TEST_STEP][PASSED] - click(findTestObject("8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/div_gbdgbbi4iy")): Object: 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/div_gbdgbbi4iy' is clicked on
+
+2019-12-25 14:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/div_gbdgbbi4iy' is clicked on
+
+2019-12-25 14:00:16 - [TEST_STEP][PASSED] - setText(findTestObject("8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox"), "in:gbdgbbi4iy "): Text 'in:gbdgbbi4iy ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:17 - [MESSAGE][PASSED] - Text 'in:gbdgbbi4iy ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_From_Specific_Channels/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-25 14:00:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-25 14:00:19 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-12-25 14:00:19 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/8_Search_Options/Search_Find_Post_Before_Specific_Date" time="10.239" classname="Test Cases/8_Search_Options/Search_Find_Post_Before_Specific_Date" status="PASSED">
+         <system-out><![CDATA[2019-12-25 14:00:19 - [TEST_CASE][PASSED] - Test Cases/8_Search_Options/Search_Find_Post_Before_Specific_Date: Test Cases/8_Search_Options/Search_Find_Post_Before_Specific_Date
+
+2019-12-25 14:00:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-25 14:00:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-25 14:00:19 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-25 14:00:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-25 14:00:20 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen' successfully
+
+2019-12-25 14:00:22 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen' successfully
+
+2019-12-25 14:00:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), "before:"): Text 'before:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:26 - [MESSAGE][PASSED] - Text 'before:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_22")): Object: 'Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_22' is clicked on
+
+2019-12-25 14:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_22' is clicked on
+
+2019-12-25 14:00:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), "before:2019-12-22 "): Text 'before:2019-12-22 ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:27 - [MESSAGE][PASSED] - Text 'before:2019-12-22 ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_Before_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-25 14:00:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-25 14:00:29 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-12-25 14:00:29 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/8_Search_Options/Search_Find_Post_After_Specific_Date" time="10.113" classname="Test Cases/8_Search_Options/Search_Find_Post_After_Specific_Date" status="PASSED">
+         <system-out><![CDATA[2019-12-25 14:00:29 - [TEST_CASE][PASSED] - Test Cases/8_Search_Options/Search_Find_Post_After_Specific_Date: Test Cases/8_Search_Options/Search_Find_Post_After_Specific_Date
+
+2019-12-25 14:00:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-25 14:00:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-25 14:00:29 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+2019-12-25 14:00:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-25 14:00:31 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen"): Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen' successfully
+
+2019-12-25 14:00:32 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen' successfully
+
+2019-12-25 14:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), "after:"): Text 'after:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:36 - [MESSAGE][PASSED] - Text 'after:' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_23")): Object: 'Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_23' is clicked on
+
+2019-12-25 14:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/div_23' is clicked on
+
+2019-12-25 14:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), "after:2019-12-23 "): Text 'after:2019-12-23 ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:37 - [MESSAGE][PASSED] - Text 'after:2019-12-23 ' is set on object 'Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/8_Search_Options/Search_Find_Post_After_Specific_Date/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'
+
+2019-12-25 14:00:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-12-25 14:00:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-12-25 14:00:39 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-12-25 14:00:39 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-25 13:59:31 - [TEST_SUITE][PASSED] - Run_all_test_cases: Test Cases/8_Search_Options/Search_Find_Post_After_Specific_Date]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

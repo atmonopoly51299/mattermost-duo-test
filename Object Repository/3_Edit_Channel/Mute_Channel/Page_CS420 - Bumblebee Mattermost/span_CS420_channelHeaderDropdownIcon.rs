@@ -3,7 +3,7 @@
    <description></description>
    <name>span_CS420_channelHeaderDropdownIcon</name>
    <tag></tag>
-   <elementGuidId>75b546d4-fa0c-4416-90b1-9c16b6a2d183</elementGuidId>
+   <elementGuidId>dc1c3223-569d-4747-b299-57d05dbdfcf4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

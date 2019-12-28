@@ -22,7 +22,11 @@ WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/select_team')
 
 WebUI.click(findTestObject('1_Create_Team/Page_Mattermost/span_Create a new team'))
 
-WebUI.setText(findTestObject('1_Create_Team/Page_Mattermost/input_Team Name_teamNameInput'), 'WeWantMoreThanTwoBonusPoints')
+WebUI.setText(findTestObject('1_Create_Team/Page_Mattermost/input_Team Name_teamNameInput'), Team_name)
 
 WebUI.click(findTestObject('1_Create_Team/Page_Mattermost/button_Next'))
+
+WebUI.delay(1)
+
+not_run: WebUI.closeBrowser()
 

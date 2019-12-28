@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header
 WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/button_Edit Channel Header'))
 
 WebUI.setText(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/textarea_Moodle (httpscoursesfithcmuseduvnc_ebf0b0'), 
-    'Moodle (https://courses.fit.hcmus.edu.vn/ctdb/login/index.php)')
+    Channel_header)
 
 WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Edit_Channel_Header/Page_CS420 - Bumblebee Mattermost/span_Save'))
 

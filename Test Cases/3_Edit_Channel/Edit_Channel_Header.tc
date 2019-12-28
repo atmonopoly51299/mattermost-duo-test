@@ -10,6 +10,6 @@
       <description></description>
       <id>0ca181fa-bcb1-43ce-840c-c050edf59777</id>
       <masked>false</masked>
-      <name>Channel_Header</name>
+      <name>Channel_header</name>
    </variable>
 </TestCaseEntity>

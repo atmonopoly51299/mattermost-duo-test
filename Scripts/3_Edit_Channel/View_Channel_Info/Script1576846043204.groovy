@@ -18,19 +18,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/k1jeanyxlk')
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_K1JeaNyXLK - Bumblebee Mattermost/span_K1JeaNyXLK_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_CS420 - Bumblebee Mattermost/button_View Info'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_K1JeaNyXLK - Bumblebee Mattermost/button_View Info'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_CS420 - Bumblebee Mattermost/div_A channel to work on AI homework'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_CS420 - Bumblebee Mattermost/a_httpscoursesfithcmuseduvnctdbloginindexphp'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_K1JeaNyXLK - Bumblebee Mattermost/span_'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_CS420 - Bumblebee Mattermost/div_httpsmattermost-duo-test-yenherokuappco_afcfce'))
-
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_CS420 - Bumblebee Mattermost/p_ID caj1nt34k3n6xkdyrsha7cbooh'))
-
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/View_Channel_Info/Page_CS420 - Bumblebee Mattermost/span_'))
+not_run: WebUI.closeBrowser()
 

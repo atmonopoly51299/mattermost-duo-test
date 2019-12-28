@@ -20,11 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'), 
     '"little"')
 
 WebUI.sendKeys(findTestObject('8_Search_Options/Search_For_Phrase/Page_tringuyen - Bumblebee Mattermost/input_Search Options_searchBox'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.delay(1)
 
 not_run: WebUI.closeBrowser()
 

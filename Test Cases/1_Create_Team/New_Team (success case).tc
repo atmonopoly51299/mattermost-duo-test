@@ -5,11 +5,4 @@
    <tag>UI/API</tag>
    <comment></comment>
    <testCaseGuid>3f8c766e-263c-4cf1-b28b-f2d7a204e2bc</testCaseGuid>
-   <variable>
-      <defaultValue>'TriThuYen'</defaultValue>
-      <description></description>
-      <id>6763c96a-6d06-47fe-9f06-449c1268d7ac</id>
-      <masked>false</masked>
-      <name>team_name</name>
-   </variable>
 </TestCaseEntity>

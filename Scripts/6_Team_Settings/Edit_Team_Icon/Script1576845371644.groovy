@@ -16,21 +16,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
-
-WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Icon/Page_1HDHFClGY4 - Bumblebee Mattermost/svg'))
-
-WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Icon/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Team Settings'))
-
-WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Icon/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
-
-WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Icon/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Select'))
-
-WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Icon/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
-
-WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Team_Icon/Page_1HDHFClGY4 - Bumblebee Mattermost/span_'))
-
-not_run: WebUI.closeBrowser()
-

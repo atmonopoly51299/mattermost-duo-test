@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Save</name>
    <tag></tag>
-   <elementGuidId>e17705df-04de-42d6-b0bf-49629abcb176</elementGuidId>
+   <elementGuidId>f9cc9350-5982-421b-a515-235b6467c908</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -73,6 +73,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/ul/li[2]/button/span</value>
+      <value>//li[2]/button/span</value>
    </webElementXpaths>
 </WebElementEntity>

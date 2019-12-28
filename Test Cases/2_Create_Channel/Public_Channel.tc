@@ -5,25 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f13dd64a-8c57-4b20-8c86-dd4f035ffc78</testCaseGuid>
-   <variable>
-      <defaultValue>'Bellydance'</defaultValue>
-      <description></description>
-      <id>5adfc3cb-bd9b-47b9-9aef-3dbcb2a93639</id>
-      <masked>false</masked>
-      <name>Channel_Name</name>
-   </variable>
-   <variable>
-      <defaultValue>'Dance the Belly out'</defaultValue>
-      <description></description>
-      <id>cc8c543f-43ca-4593-8043-df5e42c451e6</id>
-      <masked>false</masked>
-      <name>Channel_Purpose</name>
-   </variable>
-   <variable>
-      <defaultValue>'I wanna dance'</defaultValue>
-      <description></description>
-      <id>4c6f0892-62b1-4d2f-94ab-1e8218deb054</id>
-      <masked>false</masked>
-      <name>Channel_Header</name>
-   </variable>
 </TestCaseEntity>

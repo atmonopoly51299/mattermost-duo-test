@@ -20,6 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/q1p4rbydum')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'), 
     'from:')
 
@@ -30,6 +32,8 @@ WebUI.setText(findTestObject('8_Search_Options/Search_Find_Post_From_Specific_Us
 
 WebUI.sendKeys(findTestObject('8_Search_Options/Search_Find_Post_From_Specific_User/Page_q1p4rByDUM - Bumblebee Mattermost/input_Search Options_searchBox'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.delay(1)
 
 not_run: WebUI.closeBrowser()
 

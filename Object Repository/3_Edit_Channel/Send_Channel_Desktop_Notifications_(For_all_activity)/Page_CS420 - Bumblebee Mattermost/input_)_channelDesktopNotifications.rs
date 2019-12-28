@@ -3,7 +3,7 @@
    <description></description>
    <name>input_)_channelDesktopNotifications</name>
    <tag></tag>
-   <elementGuidId>384b7c60-5d8b-4547-b5aa-06047c08af8f</elementGuidId>
+   <elementGuidId>ce9353ad-06e5-45f1-ba34-0737c2736ab8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -18,16 +18,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420')
 
-WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/div_'))
+WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS420 - Bumblebee Mattermost/div_'))
 
-WebUI.setText(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'), 
+WebUI.setText(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS420 - Bumblebee Mattermost/input_Team Name_teamNameInput'), 
     existed_team_name)
 
-WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Next'))
+WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS420 - Bumblebee Mattermost/span_Next'))
 
-WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS311 - Bumblebee Mattermost/span_Finish'))
+WebUI.click(findTestObject('1_Create_Team/Existed_Team_Name/Page_CS420 - Bumblebee Mattermost/span_Finish'))
 
-WebUI.delay(3)
+WebUI.delay(1)
+
+not_run: WebUI.closeBrowser()
 

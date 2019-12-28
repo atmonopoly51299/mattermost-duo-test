@@ -20,15 +20,33 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs420')
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/button_Notification Preferences'))
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/button_Notification Preferences'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_Edit'))
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_Edit'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/input_Ignore mentions for channel here and _e66082'))
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/input_Ignore mentions for channel here and _e66082'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_Save'))
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_Save'))
 
-WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_'))
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
+
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/button_Notification Preferences'))
+
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_Edit'))
+
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/input_On_ignoreChannelMentions'))
+
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_Save'))
+
+WebUI.click(findTestObject('3_Edit_Channel/Ignore_Mentions_For_Channels/Page_CS420 - Bumblebee Mattermost/span_'))
+
+WebUI.delay(1)
+
+not_run: WebUI.closeBrowser()
 

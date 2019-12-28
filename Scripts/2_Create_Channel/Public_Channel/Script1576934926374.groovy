@@ -25,17 +25,17 @@ WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Town Sq
 WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Town Square - Bumblebee Mattermost/div_URL  (Edit)'))
 
 WebUI.setText(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Town Square - Bumblebee Mattermost/input_Name_newChannelName'), 
-    Channel_Name)
+    'Channel_Name2')
 
 WebUI.setText(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Town Square - Bumblebee Mattermost/textarea_hello'), 
-    Channel_Purpose)
+    'Channel_Purpose2')
 
 WebUI.setText(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Town Square - Bumblebee Mattermost/textarea_No depending be convinced in unfee_db377f'), 
-    Channel_Header)
+    'Channel_Header2')
 
 WebUI.click(findTestObject('Object Repository/2_Create_Channel/Page_(2)  Town Square - Bumblebee Mattermost/span_Create New Channel'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 not_run: WebUI.closeBrowser()
 

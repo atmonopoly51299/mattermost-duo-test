@@ -26,3 +26,5 @@ WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/View_Members
 
 WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/View_Members_In_Team/Page_CS420 - Bumblebee Mattermost/span_'))
 
+not_run: WebUI.closeBrowser()
+

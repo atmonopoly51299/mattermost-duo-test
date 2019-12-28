@@ -23,11 +23,13 @@ WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/cha
 WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/div_'))
 
 WebUI.setText(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/input_Team Name_teamNameInput'), 
-    team_name)
+    'New team 4')
 
 WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/span_Next'))
 
 WebUI.click(findTestObject('Object Repository/1_Create_Team/Create_New_Team/Page_CS311 - Bumblebee Mattermost/span_Finish'))
 
 WebUI.delay(2)
+
+not_run: WebUI.closeBrowser()
 

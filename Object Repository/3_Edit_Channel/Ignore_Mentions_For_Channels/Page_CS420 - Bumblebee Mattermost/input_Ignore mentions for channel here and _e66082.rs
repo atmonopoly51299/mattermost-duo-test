@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Ignore mentions for channel here and _e66082</name>
    <tag></tag>
-   <elementGuidId>a418b7a3-cfed-46bd-ac83-af47297b4b74</elementGuidId>
+   <elementGuidId>381fba44-e552-4b0e-b051-11f4744529bb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

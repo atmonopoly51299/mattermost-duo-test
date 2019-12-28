@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Mute Channel</name>
    <tag></tag>
-   <elementGuidId>063ec523-a566-4210-bd8b-e2828ce2dcb1</elementGuidId>
+   <elementGuidId>066d6f20-14d8-4a00-861c-69dc43090ebe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -87,6 +87,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/button</value>
+      <value>//div[2]/div/div/div/div/div/div/ul/li[4]/button</value>
    </webElementXpaths>
 </WebElementEntity>

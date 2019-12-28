@@ -24,3 +24,9 @@ WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Mute_Channel/Page_C
 
 WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Mute_Channel/Page_CS420 - Bumblebee Mattermost/button_Mute Channel'))
 
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Mute_Channel/Page_CS420 - Bumblebee Mattermost/span_CS420_channelHeaderDropdownIcon'))
+
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Mute_Channel/Page_CS420 - Bumblebee Mattermost/button_Unmute Channel'))
+
+not_run: WebUI.closeBrowser()
+

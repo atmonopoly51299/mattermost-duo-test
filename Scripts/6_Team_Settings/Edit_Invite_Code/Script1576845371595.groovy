@@ -28,6 +28,8 @@ WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Invite_Code/P
 
 WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Invite_Code/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Regenerate'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/6_Team_Settings/Edit_Invite_Code/Page_1HDHFClGY4 - Bumblebee Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()

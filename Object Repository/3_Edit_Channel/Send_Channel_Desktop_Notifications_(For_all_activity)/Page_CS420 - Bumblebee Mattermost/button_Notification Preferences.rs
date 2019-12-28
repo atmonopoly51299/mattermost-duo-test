@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Notification Preferences</name>
    <tag></tag>
-   <elementGuidId>1e653a3a-ef00-438f-9c51-fb6baf54a5af</elementGuidId>
+   <elementGuidId>f3daa57b-4bd9-4b96-8515-23e9b5ade3e7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

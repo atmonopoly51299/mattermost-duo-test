@@ -5,4 +5,11 @@
    <tag>UI/API</tag>
    <comment></comment>
    <testCaseGuid>67f14c08-ae25-4788-9713-ab911113c667</testCaseGuid>
+   <variable>
+      <defaultValue>'WeWantMoreThanTwoBonusPoints'</defaultValue>
+      <description></description>
+      <id>a690abdb-c10b-49e6-9447-b311621b1cd9</id>
+      <masked>false</masked>
+      <name>Team_name</name>
+   </variable>
 </TestCaseEntity>
