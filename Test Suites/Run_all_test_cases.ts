@@ -152,6 +152,18 @@
       <testCaseId>Test Cases/3_Edit_Channel/Send_Channel_Desktop_Notifications_(For_all_activity)</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>7c6ac8b5-60e6-408f-93df-a93ef3759cfa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Add_New_Member_To_Channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4ca5d75-ead5-409f-a0b9-869fc0f7406e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Add_New_Member_To_Channel_2</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>bf21fcd1-0560-4a10-9eaf-86dfe7183df2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -287,9 +299,57 @@
       <testCaseId>Test Cases/7_Account_Settings/Edit_Words_Trigger_Mentions</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c6ac8b5-60e6-408f-93df-a93ef3759cfa</guid>
+      <guid>53c7ccb5-fd4c-4f3c-bbf5-bf5677c5245a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3_Edit_Channel/Add_New_Member_To_Channel</testCaseId>
+      <testCaseId>Test Cases/7_Account_Settings/Edit_Availability_Status</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>edfa77e1-2736-477c-8254-1b25ee0bc50c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4_Send_Message_On_Channel/Create_Direct_Message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69ff858a-5bc7-4f14-8f98-35a006b29e45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4_Send_Message_On_Channel/Recent_Mention</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1994a0bc-a1e7-4a22-9278-5b22a1a147c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Empty_Message</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7885d367-c18b-4d0f-91b8-ba5a0b4d0972</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Message_That_Tag_Other_Users</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>69725c2e-b3fd-4158-a31b-bb32db442d02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Message_With_Emoji</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0851643-7ad4-4e7d-8f46-c341deb16587</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>29a815b9-1e85-48ef-8a3b-e94183b99c78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Only-text_Message</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3533d89e-0b89-452b-a8da-80dc2100e412</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
