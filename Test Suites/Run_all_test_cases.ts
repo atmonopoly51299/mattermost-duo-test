@@ -194,12 +194,6 @@
       <testCaseId>Test Cases/6_Team_Settings/Edit_Team_Description</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>287c2c9b-2dc3-42df-83bf-41514da33cff</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/6_Team_Settings/Edit_Team_Name</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>84a64de0-1254-412f-8356-901b8b261db9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -297,11 +291,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/3_Edit_Channel/Add_New_Member_To_Channel</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2b2db6ba-049b-4698-bedf-61cdad97ded7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/3_Edit_Channel/Remove_Member_From_Channel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

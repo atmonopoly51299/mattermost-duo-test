@@ -16,3 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
+
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Recent_Mention/Page_(1)  Bugs - Bumblebee Mattermost/button_after_channelHeaderMentionButton'))
+
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Recent_Mention/Page_(1)  Bugs - Bumblebee Mattermost/a_Jump'))
+
+not_run: WebUI.closeBrowser()
+

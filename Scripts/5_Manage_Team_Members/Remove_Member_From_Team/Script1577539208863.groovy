@@ -18,17 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/ayjtheg/channels/town-square')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Profile_Picture/Page_Town Square - New_Team_Name Mattermost/path'))
+WebUI.switchToWindowTitle('(1) * Town Square - AYJtheg Mattermost')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Profile_Picture/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Remove_Member_From_Team/Page_(1)  Town Square - AYJtheg Mattermost/span'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Profile_Picture/Page_Town Square - New_Team_Name Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Remove_Member_From_Team/Page_(1)  Town Square - AYJtheg Mattermost/button_Manage Members'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Profile_Picture/Page_Town Square - New_Team_Name Mattermost/span_Select'))
+WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Remove_Member_From_Team/Page_(1)  Town Square - AYJtheg Mattermost/span_Member'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Profile_Picture/Page_Town Square - New_Team_Name Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Remove_Member_From_Team/Page_(1)  Town Square - AYJtheg Mattermost/button_Remove From Team'))
+
+WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Remove_Member_From_Team/Page_(1)  Town Square - AYJtheg Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 

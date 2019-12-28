@@ -23,10 +23,10 @@ WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/mes
 WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_'), '@')
 
 WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_tringuyen h'), 
-    '@tringuyen h')
+    '@ngocyen h')
 
 WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_tringuyen hi'), 
-    '@tringuyen hi')
+    '@ngocyen hi')
 
 WebUI.sendKeys(findTestObject('4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_tringuyen hi'), Keys.chord(
         Keys.ENTER))

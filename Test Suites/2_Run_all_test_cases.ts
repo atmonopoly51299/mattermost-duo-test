@@ -209,12 +209,6 @@
       <testCaseId>Test Cases/6_Team_Settings/Edit_Team_Description</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f90f9638-d275-471b-9cfa-293f8207e606</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/6_Team_Settings/Edit_Team_Name</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5955e603-9f5b-4de1-adfd-7624b8a95e78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -267,24 +261,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Email</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c3cc412d-91aa-4050-95c1-07ec3aec74fa</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Password</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>af942534-c7d8-439f-830c-e95b0a14c3d1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Email_Notifications</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>05942f37-962b-4eed-a47c-486126d99802</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/7_Account_Settings/Edit_Mobile_Push_Classification</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eb6e6e04-764e-424e-b130-b7ee4503aeea</guid>

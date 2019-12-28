@@ -18,19 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8065/')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/ayjtheg/channels/town-square')
 
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Mobile_Push_Notification/Page_1HDHFClGY4 - Bumblebee Mattermost/svg'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Mobile_Push_Notification/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Account Settings'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Mobile_Push_Notification/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Notifications'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Mobile_Push_Notification/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Mobile_Push_Notification/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Cancel'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Mobile_Push_Notification/Page_1HDHFClGY4 - Bumblebee Mattermost/span_'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Respond_To_Status/Page_(1)  Town Square - AYJtheg Mattermost/span_Yes set my status to Online'))
 
 not_run: WebUI.closeBrowser()
 

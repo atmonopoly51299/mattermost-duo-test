@@ -16,3 +16,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/ayjtheg/channels/town-square')
+
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Availability_Status/Page_(1)  Town Square - AYJtheg Mattermost/img__user__picture'))
+
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Availability_Status/Page_(1)  Town Square - AYJtheg Mattermost/button_Offline'))
+
+WebUI.delay(1)
+
+WebUI.callTestCase(findTestCase('7_Account_Settings/Respond_To_Status'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.closeBrowser()
+

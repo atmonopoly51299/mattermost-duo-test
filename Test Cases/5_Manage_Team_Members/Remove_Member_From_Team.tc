@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Edit_Mobile_Push_Classification</name>
+   <name>Remove_Member_From_Team</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>91c6ee8b-80cc-4a82-a21d-695a44d7b56d</testCaseGuid>
+   <testCaseGuid>44e72f4f-a797-429e-9311-25ceb8434d17</testCaseGuid>
 </TestCaseEntity>

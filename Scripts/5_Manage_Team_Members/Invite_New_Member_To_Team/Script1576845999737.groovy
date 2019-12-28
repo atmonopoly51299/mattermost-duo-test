@@ -28,5 +28,7 @@ WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_M
 
 WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/span_Add'))
 
+WebUI.callTestCase(findTestCase('5_Manage_Team_Members/Remove_Member_From_Team'), [:], FailureHandling.STOP_ON_FAILURE)
+
 not_run: WebUI.closeBrowser()
 
