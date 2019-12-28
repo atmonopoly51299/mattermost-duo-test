@@ -27,10 +27,10 @@ WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Full_Name/
 WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Full_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/7_Account_Settings/Edit_Full_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/input_First Name_firstName'), 
-    'FirstName')
+    First_name)
 
 WebUI.setText(findTestObject('Object Repository/7_Account_Settings/Edit_Full_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Last Name_lastName'), 
-    'LastName')
+    Last_name)
 
 WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Full_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
 

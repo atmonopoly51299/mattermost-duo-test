@@ -20,21 +20,38 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen')
 
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/svg'))
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_H'), 
+    'H')
 
-not_run: WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/img_People_emoji-1f61d'))
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_He'), 
+    'He')
 
-not_run: WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/span_stuck_out_tongue_closed_eyes_emojiPick_1a1d51'))
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hel'), 
+    'Hel')
 
-not_run: WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/img_People_emoji-1f632'))
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hell'), 
+    'Hell')
 
-WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_stuck_out_tongue_closed_eyes aston_994d01'), 
-    Message_with_emoji)
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hello'), 
+    'Hello')
 
-WebUI.sendKeys(findTestObject('4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_stuck_out_tongue_closed_eyes aston_994d01'), 
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hello_1'), 
+    'Hello ')
+
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hello (1)'), 
+    'Hello :')
+
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hello _1'), 
+    'Hello :+')
+
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hello 1'), 
+    'Hello :+1')
+
+WebUI.setText(findTestObject('Object Repository/4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hello 1_1'), 
+    'Hello :+1:')
+
+WebUI.sendKeys(findTestObject('4_Send_Message/Send_Message_With_Emoji/Page_tringuyen - Bumblebee Mattermost/textarea_Hello 1_1'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.delay(3)
 
 not_run: WebUI.closeBrowser()
 

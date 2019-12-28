@@ -3569,3 +3569,300 @@
   <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\3_Edit_Channel_Header.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+<record>
+  <date>2019-12-28T14:13:46</date>
+  <millis>1577517226466</millis>
+  <sequence>6651</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/4_Edit_Position&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:13:46</date>
+  <millis>1577517226470</millis>
+  <sequence>6652</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:13:46</date>
+  <millis>1577517226471</millis>
+  <sequence>6653</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\4_Edit_Position.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:17:11</date>
+  <millis>1577517431313</millis>
+  <sequence>6654</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>884</thread>
+  <message>Finding test data with id &amp;apos;Data Files/4_Edit_Position&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:17:11</date>
+  <millis>1577517431314</millis>
+  <sequence>6655</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>884</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:17:11</date>
+  <millis>1577517431314</millis>
+  <sequence>6656</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>884</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\4_Edit_Position.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:23</date>
+  <millis>1577517863752</millis>
+  <sequence>7245</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/5_Edit_Full_Name&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:23</date>
+  <millis>1577517863754</millis>
+  <sequence>7246</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:23</date>
+  <millis>1577517863754</millis>
+  <sequence>7247</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\5_Edit_Full_Name.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:27</date>
+  <millis>1577517867308</millis>
+  <sequence>7248</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/5_Edit_Full_Name&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:27</date>
+  <millis>1577517867314</millis>
+  <sequence>7249</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:27</date>
+  <millis>1577517867315</millis>
+  <sequence>7250</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\5_Edit_Full_Name.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:38</date>
+  <millis>1577517878768</millis>
+  <sequence>7251</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2250</thread>
+  <message>Finding test data with id &amp;apos;Data Files/5_Edit_Full_Name&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:38</date>
+  <millis>1577517878769</millis>
+  <sequence>7252</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2250</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:24:38</date>
+  <millis>1577517878770</millis>
+  <sequence>7253</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2250</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\5_Edit_Full_Name.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:27:51</date>
+  <millis>1577518071134</millis>
+  <sequence>7902</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/6_Edit_Nick_Name&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:27:51</date>
+  <millis>1577518071136</millis>
+  <sequence>7903</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:27:51</date>
+  <millis>1577518071136</millis>
+  <sequence>7904</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\6_Edit_Nick_Name.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362143</millis>
+  <sequence>8185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Finding test data with id &amp;apos;Data Files/5_Edit_Full_Name&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362145</millis>
+  <sequence>8186</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362145</millis>
+  <sequence>8187</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\5_Edit_Full_Name.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362155</millis>
+  <sequence>8188</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Finding test data with id &amp;apos;Data Files/6_Edit_Nick_Name&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362157</millis>
+  <sequence>8189</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362159</millis>
+  <sequence>8190</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\6_Edit_Nick_Name.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362165</millis>
+  <sequence>8191</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Finding test data with id &amp;apos;Data Files/4_Edit_Position&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362167</millis>
+  <sequence>8192</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-12-28T14:49:22</date>
+  <millis>1577519362167</millis>
+  <sequence>8193</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2784</thread>
+  <message>Reading excel file with source file &amp;apos;D:\\CS300-project\\2 points\\mattermost-duo-test\\Data\\4_Edit_Position.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>

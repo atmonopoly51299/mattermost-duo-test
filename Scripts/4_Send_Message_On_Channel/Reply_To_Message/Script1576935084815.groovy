@@ -20,11 +20,44 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen')
 
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/svg_ngocyen_Layer_1'))
+WebUI.click(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/button_ngocyen_CENTER_button_1epijiw7yf8t3d_d76de3'))
 
-WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/textarea_HI ME'), 'HI ME')
+WebUI.click(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/button_Reply'))
 
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/input_Help_btn btn-primary comment-btn pull-right'))
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I'), 
+    'I')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I_1'), 
+    'I ')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I h'), 
+    'I h')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I ha'), 
+    'I ha')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I hat'), 
+    'I hat')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I hate'), 
+    'I hate')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I hate_1'), 
+    'I hate ')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I hate t'), 
+    'I hate t')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I hate th'), 
+    'I hate th')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I hate thi'), 
+    'I hate thi')
+
+WebUI.setText(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/textarea_I hate this'), 
+    'I hate this')
+
+WebUI.click(findTestObject('4_Send_Message/Reply_To_Message/Page_tringuyen - Bumblebee Mattermost/input_Help_btn btn-primary comment-btn pull-right'))
 
 not_run: WebUI.closeBrowser()
 

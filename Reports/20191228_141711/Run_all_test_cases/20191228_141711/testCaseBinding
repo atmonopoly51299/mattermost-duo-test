@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/7_Account_Settings/Edit_Position - Iteration 1","testCaseId":"Test Cases/7_Account_Settings/Edit_Position","bindedValues":{"Position":"\u0027Advidor\u0027"}}
+{"testCaseName":"Test Cases/7_Account_Settings/Edit_Position - Iteration 2","testCaseId":"Test Cases/7_Account_Settings/Edit_Position","bindedValues":{"Position":"\u0027Admin\u0027"}}
+{"testCaseName":"Test Cases/7_Account_Settings/Edit_Position - Iteration 3","testCaseId":"Test Cases/7_Account_Settings/Edit_Position","bindedValues":{"Position":"\u0027Mentor\u0027"}}
+{"testCaseName":"Test Cases/7_Account_Settings/Edit_Position - Iteration 4","testCaseId":"Test Cases/7_Account_Settings/Edit_Position","bindedValues":{"Position":"\u0027Mentee\u0027"}}
+{"testCaseName":"Test Cases/7_Account_Settings/Edit_Position - Iteration 5","testCaseId":"Test Cases/7_Account_Settings/Edit_Position","bindedValues":{"Position":"\u0027Regulator\u0027"}}

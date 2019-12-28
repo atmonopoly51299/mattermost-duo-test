@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ab520a84-72c7-48d7-b889-1d5dae6b87f9</testCaseGuid>
+   <variable>
+      <defaultValue>'Ellen'</defaultValue>
+      <description></description>
+      <id>560c4eb9-67ab-45cc-a86c-fddac86309da</id>
+      <masked>false</masked>
+      <name>First_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Eagle'</defaultValue>
+      <description></description>
+      <id>9ab20920-6ae5-4e27-8309-499b616b2ccf</id>
+      <masked>false</masked>
+      <name>Last_name</name>
+   </variable>
 </TestCaseEntity>

@@ -159,19 +159,10 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Message_With_Emoji</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>4dec83ea-1128-4b05-9e29-05701ed453e7</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Send_Message_With_Emoji</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>4dec83ea-1128-4b05-9e29-05701ed453e7</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Message_with_emoji</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>a0851643-7ad4-4e7d-8f46-c341deb16587</variableId>
       </variableLink>
    </testCaseLink>
@@ -246,18 +237,42 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Full_Name</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>560c4eb9-67ab-45cc-a86c-fddac86309da</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ab20920-6ae5-4e27-8309-499b616b2ccf</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d312e31b-477e-4c52-be2f-2a28cd2d5b8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Nick_Name</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49f4e55a-d526-4449-b9a2-973e65a6f980</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>368e942f-8193-4ce3-9347-76fe012b4e89</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Position</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81e3393f-0aec-4c57-b59d-de66ff247ae9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b1541a42-f7d9-46cb-b0a1-c3daea465cae</guid>

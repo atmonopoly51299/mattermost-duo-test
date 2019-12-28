@@ -18,23 +18,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/trithuyen/channels/town-square')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_User_Name/Page_Town Square - New_Team_Name Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_User_Name/Page_Town Square - TriThuYen Mattermost/svg'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_User_Name/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_User_Name/Page_Town Square - TriThuYen Mattermost/button_Account Settings'))
 
-WebUI.doubleClick(findTestObject('7_Account_Settings/Edit_User_Name/Page_Town Square - New_Team_Name Mattermost/input_Username_username'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_User_Name/Page_Town Square - TriThuYen Mattermost/span_Edit'))
 
-WebUI.setText(findTestObject('7_Account_Settings/Edit_User_Name/Page_Town Square - New_Team_Name Mattermost/input_Username_username'), 
-    'New Username')
+WebUI.setText(findTestObject('Object Repository/7_Account_Settings/Edit_User_Name/Page_Town Square - TriThuYen Mattermost/input_Username_username'), 
+    'ngocyen')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_User_Name/Page_Town Square - New_Team_Name Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_User_Name/Page_Town Square - TriThuYen Mattermost/span_Save'))
 
-WebUI.setText(findTestObject('7_Account_Settings/Edit_User_Name/Page_Town Square - New_Team_Name Mattermost/input_Username_username'), 
-    'New_Username')
-
-WebUI.click(findTestObject('7_Account_Settings/Edit_User_Name/Page_Town Square - New_Team_Name Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_User_Name/Page_Town Square - TriThuYen Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 

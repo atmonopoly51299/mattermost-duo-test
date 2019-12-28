@@ -16,21 +16,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_1HDHFClGY4 - Bumblebee Mattermost/svg'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Account Settings'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_1HDHFClGY4 - Bumblebee Mattermost/button_Notifications'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Cancel'))
-
-WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_1HDHFClGY4 - Bumblebee Mattermost/span_'))
-
-not_run: WebUI.closeBrowser()
-

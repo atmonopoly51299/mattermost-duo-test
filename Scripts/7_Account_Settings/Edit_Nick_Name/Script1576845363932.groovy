@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/
 WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Nickname_nickname'), 
-    'New Nickname')
+    Nick_name)
 
 WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Nick_Name/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
 

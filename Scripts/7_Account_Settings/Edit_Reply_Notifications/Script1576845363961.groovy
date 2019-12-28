@@ -18,21 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triyenthu/channels/town-square')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Town Square - New_Team_Name Mattermost/path'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_Town Square - TriYenThu Mattermost/svg'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_Town Square - TriYenThu Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Town Square - New_Team_Name Mattermost/button_Notifications'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_Town Square - TriYenThu Mattermost/button_Notifications'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Town Square - New_Team_Name Mattermost/span_Edit'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_Town Square - TriYenThu Mattermost/span_Edit'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Town Square - New_Team_Name Mattermost/label_Do not trigger notifications on messa_d7ce81'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_Town Square - TriYenThu Mattermost/input_Reply notifications_commentsNotificat_730a39'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Town Square - New_Team_Name Mattermost/label_Do not trigger notifications on messa_d7ce81'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_Town Square - TriYenThu Mattermost/span_Save'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Reply_Notifications/Page_Town Square - New_Team_Name Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Email_Notifications/Page_Town Square - TriYenThu Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 

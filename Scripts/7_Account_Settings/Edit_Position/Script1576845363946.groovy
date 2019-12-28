@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Position/P
 WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Position/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/7_Account_Settings/Edit_Position/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Position_position'), 
-    'Advisor')
+    Position)
 
 WebUI.click(findTestObject('Object Repository/7_Account_Settings/Edit_Position/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Save'))
 

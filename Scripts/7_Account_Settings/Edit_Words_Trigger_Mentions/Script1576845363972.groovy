@@ -18,25 +18,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/triii/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/trithuyen/channels/town-square')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/path'))
+WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - TriThuYen Mattermost/svg'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/button_Account Settings'))
+WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - TriThuYen Mattermost/button_Account Settings'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/button_Notifications'))
+WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - TriThuYen Mattermost/button_Notifications'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/span_Edit'))
+WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - TriThuYen Mattermost/span_Edit'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/label_Your non-case sensitive username new__374869'))
+WebUI.setText(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - TriThuYen Mattermost/input_Other non-case sensitive words separa_48b795'), 
+    '@me')
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/label_Your non-case sensitive username new__374869'))
+WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - TriThuYen Mattermost/span_Save'))
 
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/label_Other non-case sensitive words separa_326fd2'))
-
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/label_Other non-case sensitive words separa_326fd2'))
-
-WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - New_Team_Name Mattermost/span_Save'))
+WebUI.click(findTestObject('7_Account_Settings/Edit_Words_Trigger_Mentions/Page_Town Square - TriThuYen Mattermost/span_'))
 
 not_run: WebUI.closeBrowser()
 
