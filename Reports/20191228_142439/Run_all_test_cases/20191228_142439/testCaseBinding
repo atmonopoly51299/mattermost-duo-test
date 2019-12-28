@@ -1,5 +1,0 @@
-{"testCaseName":"Test Cases/7_Account_Settings/Edit_Full_Name - Iteration 1","testCaseId":"Test Cases/7_Account_Settings/Edit_Full_Name","bindedValues":{"First_name":"\u0027Bunny\u0027","Last_name":"\u0027Rabbit\u0027"}}
-{"testCaseName":"Test Cases/7_Account_Settings/Edit_Full_Name - Iteration 2","testCaseId":"Test Cases/7_Account_Settings/Edit_Full_Name","bindedValues":{"First_name":"\u0027Danny\u0027","Last_name":"\u0027Dog\u0027"}}
-{"testCaseName":"Test Cases/7_Account_Settings/Edit_Full_Name - Iteration 3","testCaseId":"Test Cases/7_Account_Settings/Edit_Full_Name","bindedValues":{"First_name":"\u0027Catherine\u0027","Last_name":"\u0027Cat\u0027"}}
-{"testCaseName":"Test Cases/7_Account_Settings/Edit_Full_Name - Iteration 4","testCaseId":"Test Cases/7_Account_Settings/Edit_Full_Name","bindedValues":{"First_name":"\u0027Arlie\u0027","Last_name":"\u0027Armadillo\u0027"}}
-{"testCaseName":"Test Cases/7_Account_Settings/Edit_Full_Name - Iteration 5","testCaseId":"Test Cases/7_Account_Settings/Edit_Full_Name","bindedValues":{"First_name":"\u0027Henry\u0027","Last_name":"\u0027Hippo\u0027"}}

@@ -1,6 +1,0 @@
-{"testCaseName":"Test Cases/1_Create_Team/New_Team (success case) - Iteration 1","testCaseId":"Test Cases/1_Create_Team/New_Team (success case)","bindedValues":{"team_name":"\u0027TriThuYen\u0027"}}
-{"testCaseName":"Test Cases/1_Create_Team/New_Team (success case) - Iteration 2","testCaseId":"Test Cases/1_Create_Team/New_Team (success case)","bindedValues":{"team_name":"\u0027TriYenThu\u0027"}}
-{"testCaseName":"Test Cases/1_Create_Team/New_Team (success case) - Iteration 3","testCaseId":"Test Cases/1_Create_Team/New_Team (success case)","bindedValues":{"team_name":"\u0027ThuTriYen\u0027"}}
-{"testCaseName":"Test Cases/1_Create_Team/New_Team (success case) - Iteration 4","testCaseId":"Test Cases/1_Create_Team/New_Team (success case)","bindedValues":{"team_name":"\u0027ThuYenTri\u0027"}}
-{"testCaseName":"Test Cases/1_Create_Team/New_Team (success case) - Iteration 5","testCaseId":"Test Cases/1_Create_Team/New_Team (success case)","bindedValues":{"team_name":"\u0027YenTriThu\u0027"}}
-{"testCaseName":"Test Cases/1_Create_Team/New_Team (success case) - Iteration 6","testCaseId":"Test Cases/1_Create_Team/New_Team (success case)","bindedValues":{"team_name":"\u0027YenThuTri\u0027"}}
