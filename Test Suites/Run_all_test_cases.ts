@@ -95,6 +95,12 @@
       <testCaseId>Test Cases/2_Create_Channel/Switch_Channel</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ce2c61af-745d-4a31-936c-ff8a64a625b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Add_Channel_To_Favorite</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>47836a55-c9ec-4816-b52e-c54f360cd631</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
