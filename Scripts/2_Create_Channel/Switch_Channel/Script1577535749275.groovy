@@ -18,15 +18,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/ayjtheg/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/svg'))
+WebUI.click(findTestObject('2_Create_Channel/Page_1HDHFClGY4 - Bumblebee Mattermost/span_Switch Channels'))
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/button_Add Members to Team'))
+WebUI.setText(findTestObject('2_Create_Channel/Page_1HDHFClGY4 - Bumblebee Mattermost/input_Type to find a channel Use  to browse_c1b80e'), 
+    'C')
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/div_tringuyen'))
-
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/span_Add'))
+WebUI.click(findTestObject('2_Create_Channel/Page_1HDHFClGY4 - Bumblebee Mattermost/span_CS311'))
 
 not_run: WebUI.closeBrowser()
 

@@ -89,6 +89,12 @@
       <testCaseId>Test Cases/2_Create_Channel/Cancel_Create_Channel</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>51051e30-9769-46d0-91f9-5385a30e3f63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/2_Create_Channel/Switch_Channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>47836a55-c9ec-4816-b52e-c54f360cd631</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -178,37 +184,37 @@
    <testCaseLink>
       <guid>78c558c1-a4f6-49a3-8d7f-009634d17231</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/6_Team_Settings/Edit_Invite_Code</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3403d9a6-ac37-4ce2-a824-e2132fabafd8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/6_Team_Settings/Edit_Team_Description</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>287c2c9b-2dc3-42df-83bf-41514da33cff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/6_Team_Settings/Edit_Team_Name</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>84a64de0-1254-412f-8356-901b8b261db9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Desktop_Notification</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b0e7aa45-a140-4b00-a66e-b5ba4e8a55d4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Email</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>18236eb1-c157-4258-81bb-57c114968183</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Full_Name</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -235,7 +241,7 @@
    <testCaseLink>
       <guid>ddf7e163-9644-4ffd-8b98-57dbbadd90a0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Nick_Name</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -256,7 +262,7 @@
    <testCaseLink>
       <guid>142fbb44-5c4b-4055-902e-75d642f1b1df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Position</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -277,13 +283,25 @@
    <testCaseLink>
       <guid>29d89d98-c7e7-4958-8ef9-5d29a99b5bc9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Reply_Notifications</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c813f99f-bc85-4e57-a554-aecc4f4c4790</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/7_Account_Settings/Edit_Words_Trigger_Mentions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c6ac8b5-60e6-408f-93df-a93ef3759cfa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Add_New_Member_To_Channel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b2db6ba-049b-4698-bedf-61cdad97ded7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3_Edit_Channel/Remove_Member_From_Channel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

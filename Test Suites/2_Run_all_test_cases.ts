@@ -173,18 +173,6 @@
       <testCaseId>Test Cases/4_Send_Message_On_Channel/Send_Empty_Message</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9defe533-72e0-4802-854f-2dc73fe01f0e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/4_Send_Message_On_Channel/Edit_Message</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f278d628-b4de-4833-af18-f2ed3b5e9839</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/4_Send_Message_On_Channel/Delete_Message</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>464674e5-38f2-4b4c-874d-f6316895b654</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>

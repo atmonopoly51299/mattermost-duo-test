@@ -18,15 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/ayjtheg/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/1hdhfclgy4')
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/svg'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Remove_Member_From_Channel/Page_(1)  1HDHFClGY4 - Bumblebee Mattermost/div_2'))
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/button_Add Members to Team'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Remove_Member_From_Channel/Page_(1)  1HDHFClGY4 - Bumblebee Mattermost/span_Manage Members'))
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/div_tringuyen'))
-
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/span_Add'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Remove_Member_From_Channel/Page_(1)  1HDHFClGY4 - Bumblebee Mattermost/span_Remove Member'))
 
 not_run: WebUI.closeBrowser()
 

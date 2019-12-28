@@ -18,15 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/ayjtheg/channels/town-square')
+WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/channels/cs311')
 
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/svg'))
-
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/button_Add Members to Team'))
-
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/div_tringuyen'))
-
-WebUI.click(findTestObject('Object Repository/5_Manage_Team_Members/Invite_New_Member_To_Team/Page_(1)  Town Square - AYJtheg Mattermost/span_Add'))
+WebUI.click(findTestObject('Object Repository/3_Edit_Channel/Add_Channel_To_Favorite/Page_(1)  CS311 - Bumblebee Mattermost/i_Drop a file to upload it_icon fa fa-star-o'))
 
 not_run: WebUI.closeBrowser()
 

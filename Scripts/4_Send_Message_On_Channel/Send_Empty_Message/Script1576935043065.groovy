@@ -25,5 +25,7 @@ WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuy
 WebUI.setText(findTestObject('Object Repository/4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_a'), 
     '')
 
+WebUI.sendKeys(findTestObject('4_Send_Message/Page_(2)  tringuyen - Bumblebee Mattermost/textarea_a'), Keys.chord(Keys.ENTER))
+
 not_run: WebUI.closeBrowser()
 
