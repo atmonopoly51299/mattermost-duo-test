@@ -20,15 +20,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-duo-test-yen.herokuapp.com/bumblebee/messages/@tringuyen')
 
-WebUI.switchToWindowTitle('tringuyen - Bumblebee Mattermost')
+//WebUI.click(findTestObject('Object Repository/4_Send_Message/Add_Reaction_To_Message/Page_tringuyen - Bumblebee Mattermost/div_ngocyen258 PM1Hello  (edited)1'))
 
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/svg'))
+WebUI.waitForElementClickable('Object Repository/4_Send_Message/Add_Reaction_To_Message/Page_tringuyen - Bumblebee Mattermost/svg', 5)
 
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/img_People_emoji-1f921'))
+//WebUI.click(findTestObject('Object Repository/4_Send_Message/Add_Reaction_To_Message/Page_tringuyen - Bumblebee Mattermost/svg'))
 
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/button_'))
-
-WebUI.click(findTestObject('Object Repository/4_Send_Message/Page_tringuyen - Bumblebee Mattermost/img_People_emoji-1f629'))
+WebUI.click(findTestObject('Object Repository/4_Send_Message/Add_Reaction_To_Message/Page_tringuyen - Bumblebee Mattermost/img_Recently Used_emoji-1f643'))
 
 not_run: WebUI.closeBrowser()
 
